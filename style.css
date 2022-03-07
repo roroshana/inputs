@@ -1,0 +1,155 @@
+html {
+  width: 100%;
+  height: 100%;
+  background: url("https://lh5.googleusercontent.com/tGBlN9e_qa7CGzy8nic_wFJsOr65Lze42ZtbsrZTPN4UsCeFdQcangcJ22QMECkwicl-Aycv-YnqlV2DrV-u=w3696-h1794-rw") no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  //background: rgba(0,0,0,0.75);
+  //border-radius: 20px;
+  //border: 2px solid #d3d3d3;
+  padding: 20px;
+  //color: #fff;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.25s;
+}
+.popup.active {
+  opacity: 1;
+  pointer-events: all;
+  transition: all 0.25s 1s;
+}
+.popup .btn-group {
+  width: 100%;
+  position: relative;
+}
+.popup .btn-group .btn.btn-yes {
+  cursor: not-allowed;
+  //width: calc(25% - 20px);
+  //background: #f00;
+  //padding: 10px;
+  //border-radius: 5px;
+  float: left;
+  margin: 10px;
+  //box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.popup .btn-group .btn.btn-no {
+  cursor: pointer;
+  //width: calc(50% - 20px);
+  background: #008000;
+  padding: 10px;
+  border-radius: 5px;
+  float: left;
+  margin: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.popup .btn-group {
+  width: 100%;
+  position: relative;
+}
+.popup .btn-group .btn {
+  cursor: pointer;
+  width: calc(50% - 20px);
+  background: #008000;
+  padding: 10px;
+  border-radius: 5px;
+  float: left;
+  margin: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+h2 {
+	font-weight: bold;
+  //color: #fff;
+  font-size: 25px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+.popup .btn-group1 {
+  width: 100%;
+  position: relative;
+}
+.popup .btn-group1 .btn1.btn-yes {
+  cursor: not-allowed;
+  //width: calc(25% - 20px);
+  background: #f00;
+  padding: 10px;
+  border-radius: 5px;
+  float: center;
+  margin: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.popup .btn-group2 {
+  width: 100%;
+  position: relative;
+}
+.popup .btn-group2 .btn2.btn-yes {
+  cursor: not-allowed;
+  
+  padding: 10px;
+  
+  float: center;
+  margin: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+
+.popup .btn-group3 {
+  width: 100%;
+  position: relative;
+}
+.popup .btn-group3 .btn3.btn-yes {
+  cursor: not-allowed;
+  
+  padding: 10px;
+  
+  float: center;
+  margin: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.popup .btn-group3 .btn3.btn-no {
+  cursor: pointer;
+  
+  padding: 10px;
+  
+  float: center;
+  margin: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+
